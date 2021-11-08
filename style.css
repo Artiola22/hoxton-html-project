@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
+header {
+  background-color: rgb(209, 208, 208);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: center;
+}
+header h1 {
+  color: rgba(0, 0, 0, 0.589);
+  padding: 2rem 1rem;
+  margin: 0 3rem;
+  font-size: 50px;
+}
+header h3 {
+  color: rgba(0, 0, 0, 0.589);
+  padding: 0.3rem 1rem;
+  margin: 0 3rem;
+  font-size: 30px;
+}
+section.menu {
+  color: rgb(78, 76, 76);
+  justify-items: center;
+}
+header ul {
+  list-style: none;
+  gap: 1rem;
+  padding-top: 7rem;
+}
+header li {
+  display: inline;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0.8rem;
+  font-weight: bold;
+}
+
+main {
+  background-color: rgb(209, 208, 208);
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr;
+}
+
+section.my-photo {
+  padding: 4rem 4rem;
+  margin-top: 2rem;
+}
+main img {
+  padding-left: 3rem;
+  width: 90%;
+  border-radius: 50%;
+}
+.my-information {
+  padding-top: 3.5rem;
+
+  margin: 2rem 2rem;
+}
+.my-information h2 {
+  font-size: 60px;
+  padding-bottom: 2rem;
+}
+.my-information h4 {
+  font-size: 35px;
+  padding-bottom: 4rem;
+}
+main ul {
+  list-style: none;
+}
+main li {
+  display: inline;
+  margin: 1rem;
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.my-resume {
+  border: 1px solid rgb(76, 76, 185);
+  border-radius: 50px;
+  border-width: 40px;
+  background-color: rgb(76, 76, 185);
+}
+.my-work {
+  border: 1px solid rgba(96, 197, 38, 0.822);
+  border-radius: 50px;
+  border-width: 40px;
+  background-color: rgba(96, 197, 38, 0.822);
+}
+.my-skills {
+  border: 1px solid rgba(212, 209, 37, 0.822);
+  border-radius: 50px;
+  border-width: 40px;
+  background-color: rgba(212, 209, 37, 0.822);
+}
+main p {
+  padding-top: 5rem;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #e83556;
+  color: white;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  justify-items: center;
+}
+footer img {
+  width: 40px;
+}
+.call-me {
+  display: grid;
+  grid-template-columns: 50px auto;
+  gap: 0.5rem;
+}
+.call-me ul {
+  list-style: none;
+}
+.mail-me {
+  display: grid;
+  grid-template-columns: 50px auto;
+  gap: 0.5rem;
+}
+.mail-me ul {
+  list-style: none;
+}
+.follow-me {
+  display: grid;
+  grid-template-columns: 50px auto;
+  gap: 0.7rem;
+  font-size: 14px;
+}
+.follow-me ul {
+  list-style: none;
+}
+.follow-me li {
+  display: inline-block;
+  justify-content: space-between;
+}
+.facebook-img {
+  width: 35px;
+  margin-right: 5px;
+}
+.instagram-img {
+  width: 5px;
+}
+.copyright {
+  display: grid;
+  grid-template-columns: 50px auto;
+}
+.copyright ul {
+  list-style: none;
+  font-size: 10px;
+}
