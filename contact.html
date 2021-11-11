@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hoxton Project</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
     <header>
@@ -23,24 +23,54 @@
       </section>
     </header>
     <main>
-      <section class="my-photo">
-        <img src="./assets/olass.png" alt="" />
+      <section class="left-main">
+        <h1>CONTACT</h1>
+        <div class="images">
+          <img src="./assets/facebook-icon.png" alt="" />
+          <img src="./assets/instagram-icon.png" alt="" />
+          <ul>
+            <li>Tel: 123-123-123</li>
+            <li>Email info@mysite.com</li>
+          </ul>
+        </div>
       </section>
-      <section class="my-information">
-        <h2>Hello,</h2>
-        <h4>a bit about me:</h4>
-        <ul>
-          <li class="my-resume"><a href="./about-me.html">MY RESUME</a></li>
-          <li class="my-work"><a href="./projects.html">MY WORK</a></li>
-          <li class="my-skills"><a href="./about-me.html">MY SKILLS</a></li>
-        </ul>
-        <p>
-          I'm a paragraph. Click here to add your own text and edit me. It’s
-          easy. Just click “Edit Text” or double click me and you can start
-          adding your own content and make changes to the font. Feel free to
-          drag and drop me anywhere you like on your page. I’m a great place for
-          you to write more. Tell a story and let your users get to know you.
-        </p>
+      <section class="right-main">
+        <label class="labels">
+          <p>Looking forward to answering your email</p>
+        </label>
+        <form class="form">
+          <input
+            class="input"
+            type="text"
+            id="name"
+            minlength="6"
+            maxlength="16"
+            placeholder="Name"
+            required
+          />
+          <label class="email-address" for="email-address">
+            <input
+              class="input-2"
+              type="text"
+              name="email-address"
+              minlength="12"
+              maxlength="26"
+              placeholder="Email"
+              required
+            />
+          </label>
+          <label class="phone" for="phone-number">
+            <input class="input-3" type="number" placeholder="Phone" required />
+          </label>
+          <label class="message">
+            <textarea
+              class="text-area"
+              type="text"
+              placeholder="Type your message here..."
+            ></textarea>
+          </label>
+          <button type="submit">Submit</button>
+        </form>
       </section>
     </main>
     <footer>
